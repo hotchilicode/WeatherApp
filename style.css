@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#app{
+    position: relative;
+    width: 414px;
+    height: 420px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 40px 0px;
+    overflow: hidden;
+    border-radius: 45px;
+    background-image: linear-gradient(
+        325deg,
+        hsl(240deg 97% 55%) 0%,
+        hsl(240deg 97% 65%) 32%,
+        hsl(240deg 97% 70%) 59%,
+        hsl(240deg 96% 75%) 74%,
+        hsl(240deg 96% 79%) 84%,
+        hsl(240deg 96% 82%) 90%,
+        hsl(240deg 96% 85%) 94%,
+        hsl(240deg 96% 88%) 97%,
+        hsl(240deg 96% 91%) 99%,
+        hsl(240deg 96% 93%) 100%,
+        hsl(240deg 96% 93%) 100%,
+        hsl(240deg 96% 96%) 100%,
+        hsl(240deg 95% 98%) 100%,
+        hsl(0deg 0% 100%) 100%
+    );
+}
+
+#searchBar{
+    display: flex;
+    padding: 0 40px;
+    margin-bottom: 30px;
+}
+
+#searchBarInput{
+    background-color: none;
+    border: none;
+    outline: none;
+    width: 90%;
+    background-color: transparent;
+    color: white;
+    border-bottom: solid 1px lightblue;
+}
+
+input::placeholder{
+    color: white;
+    opacity: 0.6;
+}
+
+#info{
+    line-height: 0.5rem;
+    color: white;
+}
+
+#info h3{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: .6em;
+}
+
+#description{
+    text-transform: uppercase;
+    color: white;
+}
+
+#temp{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+#searchIcon{
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#extraInfo{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#extraInfo h5{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
